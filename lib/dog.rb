@@ -6,7 +6,7 @@ class Dog
 
   attr_accessor :name
   
-  def breed =(val = "Mutt")
+  def breed(val = "Mutt")
     @breed = val
   end
   
