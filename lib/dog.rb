@@ -4,6 +4,14 @@ class Dog
     @breed = breed
   end
 
-  attr_accessor :name, :breed
+  attr_accessor :name
+  
+  def breed =(val = "Mutt")
+    @breed = val
+  end
+  
+  def breed
+    @breed
+  end
 
 end
